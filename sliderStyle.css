@@ -1,0 +1,26 @@
+.container {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    max-width: 500px;
+}
+.slider-area {
+    padding: 12px;
+}
+
+.slider {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+.img-one {
+    width: 155px;
+    height: auto;
+    border-radius: 4px;
+    
+}
+.list-unstyled {
+    list-style: none;
+}
