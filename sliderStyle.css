@@ -1,6 +1,5 @@
 .container {
     margin-top: 5rem;
-    margin-left: 2rem;
     max-width: 500px;
 }
 .slider-area {
@@ -8,19 +7,29 @@
 }
 
 .slider {
-    border: 1px solid gray;
+    border: 1px solid black;
     border-radius: 4px;
-    padding-bottom: 12px;
-    padding-top: 12px;
-    padding-left: 12px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    padding-left: 14px;
+    display: flex;
 }
 
 .img-one {
     width: 155px;
-    height: auto;
+    height: 225px;
     border-radius: 4px;
+    margin-right: 12px;
     
 }
 .list-unstyled {
     list-style: none;
+}
+
+.text-area-one {
+    display: flex;
+}
+
+.page-color {
+    background-color: #00295b42;
 }
