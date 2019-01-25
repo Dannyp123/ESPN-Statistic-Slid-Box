@@ -2,25 +2,26 @@
   margin-top: 5rem;
   max-width: 500px;
 }
+.card {
+    background-color: rgba(3, 125, 165, 0.726);
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    padding-left: 14px;
+    display: flex;
+    box-shadow: 8px 8px 12px rgba(100, 100, 100, 0.8);
+    transition: transform 0.5s ease-out;
+}
 
 .slider {
   transform: translateX(-98%);
-  transition: transform 0.5s ease-out;
+  
 }
-.slider:hover {
+/* .slider:hover {
   transform: translateX(0);
-}
+} */
 
-.slider {
-  background-color: rgba(3, 125, 165, 0.726);
-  border: 1px solid black;
-  border-radius: 4px;
-  padding-bottom: 14px;
-  padding-top: 14px;
-  padding-left: 14px;
-  display: flex;
-  box-shadow: 8px 8px 12px rgba(100, 100, 100, 0.8);
-}
 
 .img-one {
   width: 155px;
@@ -46,4 +47,17 @@
 
 .page-color {
   background-color: rgba(201, 201, 201, 0.555);
+}
+
+.slidIn-btn-area {
+    margin-top: 15px;
+    position: relative;
+    bottom: 310px;
+}
+.sliding-btn {
+    background-color: hsl(211, 100%, 50%);
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 6px;
+    color: white;
 }
