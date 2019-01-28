@@ -14,12 +14,12 @@
     transition: transform 0.5s ease-out;
 }
 
-.slider {
-  transform: translateX(-98%);
+.sliderOut {
+  transform: translateX(-110%);
   
 }
 /* .slider:hover {
-  transform: translateX(0);
+  transform: translateX(-110%);
 } */
 
 
@@ -55,7 +55,7 @@
     bottom: 310px;
 }
 .sliding-btn {
-    background-color: hsl(211, 100%, 50%);
+    background-color: rgba(3, 125, 165, 0.726);
     border: 1px solid gray;
     border-radius: 2px;
     padding: 6px;
