@@ -67,12 +67,15 @@
 .inputs {
   border: 1px solid gray;
   border-radius: 2px;
-  padding: 4px;
+  padding: 6px;
 }
 .tdInput {
-  margin-top: 34px;
+  margin-top: 6px;
 }
 
 #tdBar {
+  width: 135px;
+}
+#intBar {
   width: 135px;
 }
