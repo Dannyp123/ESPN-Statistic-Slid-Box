@@ -17,7 +17,7 @@ function slidingBox() {
     })
 }
 
-function showUserStats() {
+function showPlayerName() {
     var inpt = document.querySelector("#nameBar")
     var nameArea = document.querySelector(".playerNameArea")
     var expand = document.getElementById("expandingSliderBtn");
@@ -29,7 +29,18 @@ function showUserStats() {
 
 }
 
+function showPlayerTd() {
+    var inpt = document.querySelector("#tdBar")
+    var nameArea = document.querySelector(".stats-td")
+    var expand = document.getElementById("expandingSliderBtn");
+
+    expand.addEventListener("click", function() {
+        nameArea.innerHTML = inpt.value + " Touchdowns";
+    })
+}
+
 
 
 slidingBox();
-showUserStats();
+showPlayerName();
+showPlayerTd();
