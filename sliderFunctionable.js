@@ -17,17 +17,19 @@ function slidingBox() {
     })
 }
 
-// function showRandomStats(name, td, int, rating, yards) {
-//     const newPlayer = document.createElement("div")
-//     newPlayer.classList.add("card");
-//     newPlayer.innerHTML = `
- 
-//           `
+function showUserStats() {
+    var inpt = document.querySelector("#nameBar")
+    var nameArea = document.querySelector(".playerNameArea")
+    var expand = document.getElementById("expandingSliderBtn");
 
-//     document.body.appendChild(newPlayer)
-// }
+    expand.addEventListener("click", function() {
+        nameArea.innerHTML =  inpt.value
+    })
+
+
+}
 
 
 
 slidingBox();
-// showRandomStats(22, 8, 96.9, 3885)
+showUserStats();
