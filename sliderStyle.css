@@ -64,8 +64,15 @@
   position: relative;
   top: 55px;
 }
-.name {
+.inputs {
   border: 1px solid gray;
   border-radius: 2px;
   padding: 4px;
+}
+.tdInput {
+  margin-top: 34px;
+}
+
+#tdBar {
+  width: 135px;
 }
