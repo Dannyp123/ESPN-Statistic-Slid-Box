@@ -9,29 +9,37 @@
   </head>
   <body class="page-color">
     <div id="players" class="container">
-      <div  class="sliderOut card">
+      <div class="sliderOut card">
         <img class="img-one" src="/imgs/dak-img1.jpg" />
         <div class="text-area-one">
-          <span><h2 class="playerNameArea" ></h2></span>
+          <span><h2 class="playerNameArea"></h2></span>
           <span>
             <ul class="list-unstyled">
-              <li class="list-stats" >22 Touchdowns</li>
-              <li class="list-stats" >8 Interceptions</li>
-              <li class="list-stats" >3,885 Yards</li>
-              <li class="list-stats" >96.9 Rating</li>
+              <li class="list-stats stats-td"></li>
+              <li class="list-stats">8 Interceptions</li>
+              <li class="list-stats">3,885 Yards</li>
+              <li class="list-stats">96.9 Rating</li>
             </ul>
           </span>
         </div>
       </div>
     </div>
     <div id="insertName" class="nameInput">
+      <p>
         <label for="nameInput">
-          Name:
-          <input type="text" class="name" id="nameBar">
+          Name: <input type="text" class="inputs" id="nameBar" />
         </label>
+      </p>
+      <p class="tdInput">
+        <label for="tdInput">
+          Touchdowns: <input type="number" class="inputs" id="tdBar" />
+        </label>
+      </p>
     </div>
     <div class="slidIn-btn-area">
-      <button id="expandingSliderBtn" class="sliding-btn" type="button">Expand</button>
+      <button id="expandingSliderBtn" class="sliding-btn" type="button">
+        Expand
+      </button>
     </div>
     <script src="sliderFunctionable.js"></script>
   </body>
