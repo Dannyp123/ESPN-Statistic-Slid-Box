@@ -39,8 +39,18 @@ function showPlayerTd() {
     })
 }
 
+function showPlayerInt() {
+    var inpt = document.querySelector("#intBar")
+    var nameArea = document.querySelector(".stats-int")
+    var expand = document.getElementById("expandingSliderBtn");
+
+    expand.addEventListener("click", function() {
+        nameArea.innerHTML = inpt.value + " Interceptions"
+    })
+}
 
 
 slidingBox();
 showPlayerName();
 showPlayerTd();
+showPlayerInt();
