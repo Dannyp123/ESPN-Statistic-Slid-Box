@@ -50,8 +50,11 @@
 }
 
 .slidIn-btn-area {
+  /* display: flex;
+  justify-content: center; */
     position: relative;
-    top: 75px;
+    bottom: 250px;
+    margin-bottom: 120px;
 }
 .sliding-btn {
     background-color: rgba(3, 125, 165, 0.726);
@@ -78,4 +81,16 @@
 }
 #intBar {
   width: 135px;
+}
+#yrdBar {
+  width: 180px;
+}
+#rateBar{
+  width: 175px;
+}
+.nameInput {
+  margin-left: 45px;
+}
+#imgBar {
+  width: 130px;
 }
