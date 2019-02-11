@@ -1,5 +1,5 @@
 .container {
-  margin-top: 5rem;
+  margin-top: 24px;
   max-width: 500px;
 }
 .card {
@@ -18,9 +18,7 @@
   transform: translateX(-110%); 
   
  }
-/* .slider:hover {
-  transform: translateX(-110%);
-} */
+
 
 
 .img-one {
@@ -54,7 +52,6 @@
   justify-content: center; */
     position: relative;
     bottom: 250px;
-    margin-bottom: 120px;
 }
 .sliding-btn {
     background-color: rgba(3, 125, 165, 0.726);
@@ -62,6 +59,10 @@
     border-radius: 2px;
     padding: 6px;
     color: white;
+}
+.sliding-btn:hover {
+  background-color: green;
+  box-shadow: 0 0 20px gold !important;
 }
 #insertName{
   position: relative;
@@ -76,21 +77,60 @@
   margin-top: 6px;
 }
 
+
 #tdBar {
   width: 135px;
 }
+
+#tdBar:focus {
+  outline: none !important;
+  border-color: rgb(20, 20, 92) !important;
+  box-shadow: 0 0 10px rgb(20, 20, 92) !important;
+}
+
 #intBar {
   width: 135px;
+}
+
+#intBar:focus {
+  outline: none !important;
+  border-color: blue !important;
+  box-shadow: 0 0 10px blue !important;
 }
 #yrdBar {
   width: 180px;
 }
+
+#yrdBar:focus {
+  outline: none !important;
+  border-color: blue !important;
+  box-shadow: 0 0 10px blue !important;
+}
+
 #rateBar{
   width: 175px;
 }
+#rateBar:focus {
+  outline: none !important;
+  border-color: blue !important;
+  box-shadow: 0 0 10px blue !important;
+}
 .nameInput {
-  margin-left: 45px;
+  position: relative;
+  top: 12px;
+  bottom: 32px;
+}
+#imgBar:focus{
+  outline: none !important;
+  border-color: blue !important;
+  box-shadow: 0 0 10px blue !important;
 }
 #imgBar {
   width: 130px;
 }
+#nameBar:focus{
+  outline: none !important;
+  border-color: blue !important;
+  box-shadow: 0 0 10px blue !important;
+}
+
