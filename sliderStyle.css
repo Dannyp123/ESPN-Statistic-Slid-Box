@@ -29,6 +29,10 @@
   margin-right: 12px;
 }
 
+.playerStats {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .list-unstyled {
   list-style: none;
 }
@@ -97,7 +101,7 @@
 
 
 #tdBar {
-  width: 135px;
+  width: 150px;
 }
 
 #tdBar:focus {
@@ -107,7 +111,7 @@
 }
 
 #intBar {
-  width: 135px;
+  width: 122px;
 }
 
 #intBar:focus {
@@ -117,7 +121,7 @@
 }
 
 #yrdBar {
-  width: 180px;
+  width: 200px;
 }
 
 #yrdBar:focus {
@@ -127,7 +131,7 @@
 }
 
 #rateBar {
-  width: 175px;
+  width: 192px;
 }
 
 #rateBar:focus {
@@ -150,6 +154,10 @@
 
 #imgBar {
   width: 130px;
+}
+
+#nameBar {
+  width: 205px;
 }
 
 #nameBar:focus {
