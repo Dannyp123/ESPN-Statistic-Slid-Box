@@ -2,19 +2,20 @@
   margin-top: 24px;
   max-width: 500px;
 }
+
 .card {
-    background-color: rgba(3, 125, 165, 0.726);
-    border: 1px solid black;
-    border-radius: 4px;
-    padding-bottom: 14px;
-    padding-top: 14px;
-    padding-left: 14px;
-    display: flex;
-    box-shadow: 8px 8px 12px rgba(100, 100, 100, 0.8);
-    transition: transform 0.7s ease-out;
+  background-color: rgba(3, 125, 165, 0.726);
+  border: 1px solid black;
+  border-radius: 4px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  padding-left: 14px;
+  display: flex;
+  box-shadow: 8px 8px 12px rgba(100, 100, 100, 0.8);
+  transition: transform 0.7s ease-out;
 }
 
- .sliderOut {
+.sliderOut {
   transform: translateX(-110%); 
   
  }
@@ -22,25 +23,29 @@
 
 
 .img-one {
-  width: 155px;
+  width: 175px;
   height: 225px;
   border-radius: 4px;
   margin-right: 12px;
 }
+
 .list-unstyled {
   list-style: none;
 }
 
 .list-stats {
-  font-weight: bold;
-  font-size: 12pt;
+  font-size: 15pt;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .text-area-one {
-  display: flex;
-  /* justify-content: center; */
-  padding-right: 13px;
+  position: relative;
+  left: 28px;
+}
+.playerNameArea {
+  font-size: 22pt;
+  text-align: center;
+  padding-left: 23px;
 }
 
 .page-color {
@@ -48,31 +53,44 @@
 }
 
 .slidIn-btn-area {
-  /* display: flex;
-  justify-content: center; */
-    position: relative;
-    bottom: 250px;
+  position: relative;
+  bottom: 285px;
 }
+
 .sliding-btn {
-    background-color: rgba(3, 125, 165, 0.726);
-    border: 1px solid gray;
-    border-radius: 2px;
-    padding: 6px;
-    color: white;
+  background-color: rgba(3, 125, 165, 0.726);
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 6px;
+  color: white;
+
 }
+
+#title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25pt;
+  
+}
+
+.expandingSliderBtn {
+  display: none;
+}
+
 .sliding-btn:hover {
   background-color: green;
-  box-shadow: 0 0 20px gold !important;
 }
-#insertName{
+#insertName {
   position: relative;
   top: 55px;
+  margin-bottom: 35px;
 }
+
 .inputs {
   border: 1px solid gray;
   border-radius: 2px;
   padding: 6px;
 }
+
 .tdInput {
   margin-top: 6px;
 }
@@ -97,6 +115,7 @@
   border-color: blue !important;
   box-shadow: 0 0 10px blue !important;
 }
+
 #yrdBar {
   width: 180px;
 }
@@ -107,30 +126,34 @@
   box-shadow: 0 0 10px blue !important;
 }
 
-#rateBar{
+#rateBar {
   width: 175px;
 }
+
 #rateBar:focus {
   outline: none !important;
   border-color: blue !important;
   box-shadow: 0 0 10px blue !important;
 }
+
 .nameInput {
   position: relative;
   top: 12px;
   bottom: 32px;
 }
-#imgBar:focus{
-  outline: none !important;
-  border-color: blue !important;
-  box-shadow: 0 0 10px blue !important;
-}
-#imgBar {
-  width: 130px;
-}
-#nameBar:focus{
+
+#imgBar:focus {
   outline: none !important;
   border-color: blue !important;
   box-shadow: 0 0 10px blue !important;
 }
 
+#imgBar {
+  width: 130px;
+}
+
+#nameBar:focus {
+  outline: none !important;
+  border-color: blue !important;
+  box-shadow: 0 0 10px blue !important;
+}

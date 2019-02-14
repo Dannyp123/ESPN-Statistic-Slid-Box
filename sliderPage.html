@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="sliderStyle.css" />
-    <title>ESPN Statistics</title>
-  </head>
-  <body class="page-color">
-    <div id="players" class="container">
-      <div class="sliderOut card">
-        <img class="img-one" src="" />
-        <div class="text-area-one">
-          <span><h2 class="playerNameArea"></h2></span>
-          <span>
-            <ul class="list-unstyled">
-              <li class="list-stats stats-td"></li>
-              <li class="list-stats stats-int"></li>
-              <li class="list-stats stats-yrd"></li>
-              <li class="list-stats stats-rate"></li>
-            </ul>
-          </span>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="sliderStyle.css" />
+  <title>ESPN Statistics</title>
+</head>
+
+<body class="page-color">
+  <h1 id="title" >Espn Slider</h1>
+  <div id="players" class="container">
+    <div class="sliderOut card">
+      <img class="img-one" src="" />
+      <div class="text-area-one">
+          <h2 class="playerNameArea"></h2>
+          <ul class="list-unstyled">
+            <li class="list-stats stats-td"></li>
+            <li class="list-stats stats-int"></li>
+            <li class="list-stats stats-yrd"></li>
+            <li class="list-stats stats-rate"></li>
+          </ul>
       </div>
     </div>
-    <div class="stats-inputs">
-      <div id="insertName" class="nameInput">
+  </div>
+  <div class="stats-inputs">
+    <div id="insertName" class="nameInput">
         <p>
           <label for="imgInput">
             Player Image: <input type="text" class="inputs" id="imgBar" />
@@ -56,13 +57,14 @@
             Rating: <input type="number" class="inputs" id="rateBar" />
           </label>
         </p>
-      </div>
     </div>
-    <div class="slidIn-btn-area">
-      <button  id="expandingSliderBtn" class="sliding-btn" type="button">
-        Expand
-      </button>
-    </div>
-    <script src="sliderFunctionable.js"></script>
-  </body>
+  </div>
+  <div class="slidIn-btn-area">
+    <button id="expandBtn" class="sliding-btn" type="button">
+      Expand
+    </button>
+  </div>
+  <script src="sliderFunctionable.js"></script>
+</body>
+
 </html>
