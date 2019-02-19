@@ -18,9 +18,13 @@ refresh();
 function kickOff() {
   var kick = document.getElementById("kickBtn");
   var motion = document.querySelector(".myCard");
+  const textArea = document.querySelector(".fgMessage")
 
   kick.addEventListener("click", function() {
     motion.classList.add("sliderRotate")
+    setTimeout(function() {
+      textArea.innerHTML = "IT IS GOOD!!"
+    }, 2000) 
 
   })
 }
