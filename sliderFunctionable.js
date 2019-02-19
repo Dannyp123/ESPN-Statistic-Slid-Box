@@ -9,16 +9,21 @@ function slidingBox() {
     } else {
       motion.classList.remove("sliderOut");
     }
-
-    setTimeout(function() {
-      // motion.classList.add("sliderOut");
-      motion.classList.add("sliderRotate")
-      
-    }, 4500);
+    kickOff();
   });
 }
 
 refresh();  
+
+function kickOff() {
+  var kick = document.getElementById("kickBtn");
+  var motion = document.querySelector(".myCard");
+
+  kick.addEventListener("click", function() {
+    motion.classList.add("sliderRotate")
+
+  })
+}
 
 
 function showPlayerName() {
