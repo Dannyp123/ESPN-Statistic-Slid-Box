@@ -5,22 +5,24 @@
 
 .card {
   background-color: rgba(3, 125, 165, 0.726);
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 4px;
+  /* padding: 5%; */
   padding-bottom: 14px;
   padding-top: 14px;
   padding-left: 14px;
   display: flex;
   box-shadow: 8px 8px 12px rgba(100, 100, 100, 0.8);
-  transition: transform 0.7s ease-out;
+  transition: transform 0.7s ease-out, opacity 0.7s ease-out;
 }
 
 .sliderOut {
-  transform: translateX(-110%); 
-  
- }
-
-
+  transform: translateX(-110%);
+}
+.sliderRotate {
+  transform: translateX(40vw) rotate(720deg) scale(0);
+  opacity: 0;
+}
 
 .img-one {
   width: 175px;
@@ -30,7 +32,8 @@
 }
 
 .playerStats {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
 }
 
 .list-unstyled {
@@ -39,7 +42,7 @@
 
 .list-stats {
   font-size: 15pt;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .text-area-one {
@@ -53,34 +56,48 @@
 }
 
 .page-color {
-  background-color: rgba(201, 201, 201, 0.555);
+  background-image: url(/imgs/ftBallImg2.png);
+  background-repeat: no-repeat;
+  
+
 }
 
 .slidIn-btn-area {
   position: relative;
-  bottom: 285px;
+  top: 2rem;
 }
 
 .sliding-btn {
   background-color: rgba(3, 125, 165, 0.726);
-  border: 1px solid gray;
-  border-radius: 2px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  margin-left: 1%;
+  padding: 7px;
+  color: white;
+}
+.refreshing-btn {
+  background-color: rgb(207, 37, 37);
+  margin: 1%;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
   padding: 6px;
   color: white;
-
 }
 
 #title {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 25pt;
-  
+  color: wheat;
+}
+
+.scaled {
 }
 
 .expandingSliderBtn {
   display: none;
 }
 
-.sliding-btn:hover {
+.sliding-btn:focus {
   background-color: green;
 }
 #insertName {
@@ -98,7 +115,6 @@
 .tdInput {
   margin-top: 6px;
 }
-
 
 #tdBar {
   width: 150px;

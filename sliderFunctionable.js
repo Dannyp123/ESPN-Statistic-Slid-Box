@@ -11,10 +11,15 @@ function slidingBox() {
     }
 
     setTimeout(function() {
-      motion.classList.add("sliderOut");
-    }, 3200);
+      // motion.classList.add("sliderOut");
+      motion.classList.add("sliderRotate")
+      
+    }, 4500);
   });
 }
+
+refresh();  
+
 
 function showPlayerName() {
   var inpt = document.querySelector("#nameBar");
@@ -84,14 +89,19 @@ function disablingBtn() {
   inputsTdDisabling()
 }
 
+function refresh() {
+  expand = document.getElementById("refreshBtn");
+  expand.addEventListener("click", function() {
+    window.location.reload();
+  })
+}
+
 function inputsImgDisabling() {
   expandBtn = document.getElementById("expandBtn");
   expandBtn.disabled = true;
   playerInput = document.getElementById("imgBar");
   playerInput.addEventListener("keyup", function() {
     if (playerInput.value == "") {
-      expandBtn.classList.remove("sliding-btn:hover ")
-
       expandBtn.disabled = true;
     } else {
       expandBtn.disabled = false;
