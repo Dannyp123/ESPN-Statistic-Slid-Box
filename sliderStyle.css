@@ -1,23 +1,23 @@
-.container {
+.pageContainer {
   margin-top: 24px;
   max-width: 500px;
 }
 
-.card {
-  background-color: rgba(3, 125, 165, 0.726);
+.myCard {
+  background-color: rgba(3, 125, 165, 0.96);
   border: 1px solid rgb(0, 0, 0);
   border-radius: 4px;
-  /* padding: 5%; */
   padding-bottom: 14px;
   padding-top: 14px;
   padding-left: 14px;
+  margin-bottom: 12px;
   display: flex;
-  box-shadow: 8px 8px 12px rgba(100, 100, 100, 0.8);
+  /* box-shadow: 8px 8px 12px rgba(100, 100, 100, 0.8); */
   transition: transform 0.7s ease-out, opacity 0.7s ease-out;
 }
 
 .sliderOut {
-  transform: translateX(-110%);
+  transform: translateX(-115%);
 }
 .sliderRotate {
   transform: translateX(40vw) rotate(720deg) scale(0);
@@ -45,10 +45,7 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.text-area-one {
-  position: relative;
-  left: 28px;
-}
+
 .playerNameArea {
   font-size: 22pt;
   text-align: center;
@@ -62,63 +59,15 @@
 
 }
 
-.slidIn-btn-area {
-  position: relative;
-  top: 2rem;
-}
 
-.sliding-btn {
-  background-color: rgba(3, 125, 165, 0.726);
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 4px;
-  margin-left: 1%;
-  padding: 7px;
-  color: white;
-}
-.refreshing-btn {
-  background-color: rgb(207, 37, 37);
-  margin: 1%;
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 4px;
-  padding: 6px;
-  color: white;
-}
+
 
 #title {
   font-family: "Courier New", Courier, monospace;
-  font-size: 25pt;
-  color: wheat;
+  font-size: 32pt;
+  color: white;
 }
 
-.scaled {
-}
-
-.expandingSliderBtn {
-  display: none;
-}
-
-.sliding-btn:focus {
-  background-color: green;
-}
-#insertName {
-  position: relative;
-  top: 55px;
-  margin-bottom: 35px;
-}
-
-.inputs {
-  border: 1px solid gray;
-  border-radius: 2px;
-  padding: 6px;
-}
-
-.tdInput {
-  margin-top: 6px;
-}
-
-#tdBar {
-  width: 150px;
-}
 
 #tdBar:focus {
   outline: none !important;
@@ -126,9 +75,7 @@
   box-shadow: 0 0 10px rgb(20, 20, 92) !important;
 }
 
-#intBar {
-  width: 122px;
-}
+
 
 #intBar:focus {
   outline: none !important;
@@ -136,9 +83,6 @@
   box-shadow: 0 0 10px blue !important;
 }
 
-#yrdBar {
-  width: 200px;
-}
 
 #yrdBar:focus {
   outline: none !important;
@@ -146,9 +90,7 @@
   box-shadow: 0 0 10px blue !important;
 }
 
-#rateBar {
-  width: 192px;
-}
+
 
 #rateBar:focus {
   outline: none !important;
@@ -156,11 +98,7 @@
   box-shadow: 0 0 10px blue !important;
 }
 
-.nameInput {
-  position: relative;
-  top: 12px;
-  bottom: 32px;
-}
+
 
 #imgBar:focus {
   outline: none !important;
@@ -168,13 +106,6 @@
   box-shadow: 0 0 10px blue !important;
 }
 
-#imgBar {
-  width: 130px;
-}
-
-#nameBar {
-  width: 205px;
-}
 
 #nameBar:focus {
   outline: none !important;

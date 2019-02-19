@@ -5,77 +5,54 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="sliderStyle.css" />
-  
+
   <title>Football Statistics</title>
 </head>
 
 <body class="page-color">
-  <h1 id="title" >Football Slider</h1>
-  <div id="players" class="container">
-    <div class="sliderOut card">
+  <h1 class="text-center m-4" id="title">Football Slider</h1>
+    <div class="pageContainer sliderOut myCard ml-5">
       <img class="img-one" src="" />
-      <div class="text-area-one">
-          <h2 class="playerNameArea"></h2>
-          <ul class="list-unstyled">
-            <li class="list-stats stats-td"></li>
-            <li class="list-stats stats-int"></li>
-            <li class="list-stats stats-yrd"></li>
-            <li class="list-stats stats-rate"></li>
-          </ul>
+      <div class="ml-5">
+        <h2 class="playerNameArea"></h2>
+        <ul class="list-unstyled">
+          <li class="list-stats stats-td"></li>
+          <li class="list-stats stats-int"></li>
+          <li class="list-stats stats-yrd"></li>
+          <li class="list-stats stats-rate"></li>
+        </ul>
       </div>
     </div>
-  </div>
   <div class="stats-inputs">
-    <div id="insertName" class="nameInput">
-        <p>
-          <label class="playerStats" for="imgInput">
-            Player Image: 
-          </label>
-          <input type="text" class="inputs" id="imgBar" />
-        </p>
-        <p>
-          <label class="playerStats" for="nameInput">
-            Name:
-          </label>
-          <input type="text" class="inputs" id="nameBar" />
-        </p>
-        <p class="tdInput">
-          <label class="playerStats" for="tdInput">
-            Touchdowns:
-          </label>
-          <input type="number" class="inputs" id="tdBar" />
-        </p>
-        <p class="intInput">
-          <label class="playerStats" for="intInput">
-            Interceptions: 
-          </label>
-          <input type="number" class="inputs" id="intBar" />
-        </p>
-        <p>
-          <label class="playerStats" for="yrdInput">
-            Yards: 
-          </label>
-          <input type="number" class="inputs" id="yrdBar" />
-        </p>
-        <p>
-          <label class="playerStats" for="rateInput">
-            Rating: <input type="number" class="inputs" id="rateBar" />
-          </label>
-        </p>
+    <div id="insertName" class="mb-4">
+
+      <form class="ml-5">
+        <div class="form-group">
+          <label class="mt-2 font-weight-bold text-white" for="playerImg"><h4>Player Image:</h4> </label>
+
+          <input id="imgBar" type="text" class="form-control col-sm-4 col-lg-3" placeholder="Image">
+          <label class="mt-2 mb-1 font-weight-bold text-white" for="name"><h4>Name:</h4></label>
+          <input id="nameBar" type="text" class="form-control col-sm-4 col-lg-3" placeholder=" Name">
+          <label class="mt-2 font-weight-bold text-white" for="name"><h4>Touchdowns:</h4></label>
+          <input id="tdBar" type="number" class="form-control col-sm-4 col-lg-3" placeholder=" Touchdowns">
+          <label class="mt-2 font-weight-bold text-white" for="name"><h4>Interceptions:</h4></label>
+          <input id="intBar" type="number" class="form-control col-sm-4 col-lg-3" placeholder=" Interceptions">
+          <label class="mt-2 font-weight-bold text-white" for="name"><h4>Yards:</h4></label>
+          <input id="yrdBar" type="number" class="form-control col-sm-4 col-lg-3" placeholder=" Yards">
+          <label class="mt-2 font-weight-bold text-white" for="name"><h4>Rating:</h4></label>
+          <input id="rateBar" type="number" class="form-control col-sm-4 col-lg-3" placeholder=" Rating">
+        <button id="expandBtn" type="button" class="mt-3 btn btn-primary">Create</button>
+        <button id="refreshBtn" class="ml-1 mt-3 btn btn-danger" type="button">
+          Reset Stats
+        </button>
+      </form>
+      
     </div>
   </div>
-
-  <div class="slidIn-btn-area">
-    <button id="refreshBtn" class="refreshing-btn" type="button">
-      <b>Reset Stats</b>
-    </button>
-    <button id="expandBtn" class="sliding-btn" type="button">
-      <b>Create</b>
-    </button>
-
-  </div>
+  
   <script src="sliderFunctionable.js"></script>
 </body>
 

@@ -1,6 +1,6 @@
 function slidingBox() {
   var expand = document.getElementById("expandBtn");
-  var motion = document.querySelector(".card");
+  var motion = document.querySelector(".myCard");
 
   disablingBtn();
   expand.addEventListener("click", function() {
