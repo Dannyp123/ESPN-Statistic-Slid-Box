@@ -23,7 +23,7 @@ function kickOff() {
   kick.addEventListener("click", function() {
     motion.classList.add("sliderRotate")
     setTimeout(function() {
-      textArea.innerHTML = "IT IS GOOD!!"
+      textArea.innerHTML = "IT'S GOOD!!"
     }, 2000) 
 
   })

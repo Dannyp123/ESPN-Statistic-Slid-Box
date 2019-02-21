@@ -48,13 +48,13 @@
 
 
 .playerNameArea {
-  font-size: 22pt;
+  font-size: 24pt;
   text-align: center;
   padding-left: 23px;
 }
 
 .page-color {
-  background-image: url(/imgs/ftBallImg2.png);
+  background-image: url(imgs/ftBallImg2.png);
   background-repeat: no-repeat;
   
 
